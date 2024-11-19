@@ -1,0 +1,48 @@
+#hero{
+    background-image: url(../img/wall.png);
+}
+
+#main{
+    background-image: url(../img/cork.png);
+}
+
+.relativ-pos{
+    position: relative;
+}
+
+.absolute-pos{
+    position: absolute;
+    top: -20px;
+    left: 50%
+}
+
+.ms-bg-white{
+    background-color: white;
+}
+
+.bg-scarlet{
+    background-color: salmon;
+}
+
+.cirle{
+    height: 30px;
+    width: 30px;
+}
+
+h1{
+    font-family: "Edu TAS Beginner", cursive;
+}
+
+h5{
+    font-family: "Edu TAS Beginner", cursive;
+}
+
+.debug{
+    min-height: 30px;
+    min-height: 30px;
+}
+
+.debugsecond{
+    min-width: 200px;
+    min-height: 200px;
+}
