@@ -12,9 +12,9 @@ axios.get(`https://jsonplaceholder.typicode.com/photos?_limit=6`, { timeout: 100
         const { title, url } = elem;
         // console.log(title);
         console.log(url);
-        innerGriglia += `<div class="col-12 col-md-6 col-lg-4 relativ-pos">
-        <div class="absolute-pos debug"></div>
-        <div class="ms-bg-white h-100">
+        innerGriglia += `<div class="col-12 col-md-6 col-lg-4">
+        <div class="ms-bg-white h-100 relativ-pos"> 
+        <div class="absolute-pos debug cirle rounded-circle"></div>
             <div class="container">
                 <img src="${url}" class="card-img-top pt-3" alt="descrizione" >
             

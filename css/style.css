@@ -12,21 +12,21 @@
 
 .absolute-pos{
     position: absolute;
-    top: -20px;
-    left: 50%
+    right: 50%;
+    transform: translate(50%);
+    top: -10px
 }
 
 .ms-bg-white{
     background-color: white;
 }
 
-.bg-scarlet{
-    background-color: salmon;
-}
+
 
 .cirle{
     height: 30px;
     width: 30px;
+    background-image: url(../img/pin.svg);
 }
 
 h1{
@@ -37,12 +37,3 @@ h5{
     font-family: "Edu TAS Beginner", cursive;
 }
 
-.debug{
-    min-height: 30px;
-    min-height: 30px;
-}
-
-.debugsecond{
-    min-width: 200px;
-    min-height: 200px;
-}
