@@ -2,8 +2,8 @@ const greedElem = document.getElementById("griglia");
 const hoverElem = document.getElementById("hover-section");
 const closeBtnElem = document.getElementById("btn-close");
 const hoverImgElem = document.getElementById("hover-img");
-console.log(hoverImgElem)
-console.log(closeBtnElem);
+// console.log(hoverImgElem);
+// console.log(closeBtnElem);
 // console.log(greedElem);
 let innerGriglia = "";
 let arrayData = [];
@@ -16,8 +16,8 @@ axios.get(`https://jsonplaceholder.typicode.com/photos?_limit=6`, { timeout: 100
     arrayData.forEach((elem) => {
         const { title, url } = elem;
         // console.log(globalUrl)
-        // console.log(title);
-        console.log(url);
+        // // console.log(title);
+        // console.log(url);
         innerGriglia +=`<div class="col-12 col-md-6 col-lg-4">
         <div class="ms-card h-100 relativ-pos" data-url="${url}"> 
         <div class="absolute-pos debug cirle rounded-circle"></div>
@@ -38,9 +38,9 @@ axios.get(`https://jsonplaceholder.typicode.com/photos?_limit=6`, { timeout: 100
     // console.log(cardElem);
     cardElem.forEach((curCard) => {
         const cardImgElem = curCard.querySelector(".card-img-top");
-        console.log(cardImgElem)
+        // console.log(cardImgElem)
         let cardImgValue = cardImgElem.src;
-        console.log(cardImgValue)
+        // console.log(cardImgValue)
     //   console.log(curCard);
       curCard.addEventListener("click", () => {
         // console.log("click")
